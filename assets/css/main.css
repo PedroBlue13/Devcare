@@ -1,0 +1,347 @@
+/* Definição de cores */
+:root {
+    --primary-color: #2E86C1; /* Azul médico */
+    --secondary-color: #28B463; /* Verde saúde */
+    --dark-color: #2C3E50;
+    --light-color: #ECF0F1;
+    --accent-color: #9B59B6;
+  }
+  
+  /* Backgrounds */
+  .full-bg {
+    background-color: #2C3E50;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  }
+  
+  .full-bg2 {
+    background-color: #E8F8F5;
+    background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  }
+  
+  .full-bg3{
+    background-color: #3498DB;
+    background-image: url("https://www.transparenttextures.com/patterns/large-leather.png");
+    background-size: 200px;
+  }
+  
+  /* Cores de fundo e elementos */
+  .white{
+    background-color: #ECF0F1;
+  }
+  
+  .black{
+    background-color: #2C3E50;
+  }
+  
+  /* Espaçamentos */
+  .mt-4{
+    margin-top: 3rem!important;
+  }
+  
+  .py-6 {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+  }
+  
+  .margin-t{
+    margin-top: 6rem!important;
+  }
+  
+  /* Elementos de design */
+  .avatar-xxl {
+    width: 160px!important;
+    height: 160px!important;
+    object-fit: cover!important;
+    border-radius: 50%!important;
+  }
+  
+  .rounded-circle, .avatar.rounded-circle img {
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+  }
+  
+  .styled-line {
+    width: 50px;
+    height: 3px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 10px auto;
+  }
+  
+  .styled-line.left {
+    margin-left: 0;
+  }
+  
+  /* Efeitos de sombra */
+  .shadow-bottom {
+    filter: drop-shadow(0px 8px 10px rgba(46, 134, 193, 0.2))!important;
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  .shadow-bottom-g {
+    filter: drop-shadow(0px 8px 10px rgba(65, 62, 80, 0.2))!important;
+  }
+  
+  /* Seção de múltiplas telas */
+  .multi-screen-section {
+    background-color: #f8f9fa;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  
+  .main-image {
+    width: 116%;
+    max-width: 800px;
+    height: auto;
+  }
+  
+  .mobile-image {
+    position: absolute;
+    max-width: 450px;
+    bottom: -9px;
+    left: -19%;
+    transform: translateY(20px);
+  }
+  
+  /* Cards de recursos */
+  .feature-card {
+    padding: 3rem 1.5rem;
+    border-radius: 12px;
+    background-color: white;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Seção de depoimentos */
+  .depoiments-section {
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .depoiments-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+  }
+  
+  #depoiment-container {
+    width: 100%;
+    max-width: 500px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .depoiment-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .depoiment-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .depoiment-btn {
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .depoiment-btn:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+  
+  /* Seção de preços */
+  .pricing-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(145deg, #ffffff, #f5f7fa);
+  }
+  
+  .section-divider1 {
+    height: 3px;
+    background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
+    border: none;
+    margin: 2rem 0;
+    border-radius: 3px;
+  }
+  
+  .section-title {
+    background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .option-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid;
+    transition: transform 0.3s ease;
+  }
+  
+  .option-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .option-standard {
+    border-color: var(--secondary-color);
+  }
+  
+  .option-combo {
+    border-color: #e74c3c;
+    background-color: #fef9f9;
+  }
+  
+  .price-tag {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .discount-badge {
+    display: inline-block;
+    background: #f39c12;
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 0.5rem;
+  }
+  
+  .note-box {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.2rem;
+    margin-top: 2rem;
+    border-left: 4px solid var(--primary-color);
+  }
+  
+  .emoji {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  /* Seção de contato */
+  .contact-card {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Footer */
+  .footer-logo {
+    height: 40px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .avatar-xxl {
+      width: 100px !important;
+      height: 100px !important;
+    }
+  
+    .main-image {
+      width: 100%;
+      max-width: 500px;
+    }
+  
+    .mobile-image {
+      width: 50%;
+      max-width: 200px;
+      left: 5%;
+      bottom: -5px;
+    }
+  
+    .py-6 {
+      padding-top: 4rem !important;
+      padding-bottom: 4rem !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .avatar-xxl {
+      width: 80px !important;
+      height: 80px !important;
+    }
+  
+    .main-image {
+      max-width: 100%;
+      width: auto;
+    }
+  
+    .mobile-image {
+      width: 80%;
+      max-width: 150px;
+      left: 53%;
+      bottom: 0;
+    }
+    
+    .text-white.display-3 {
+      font-size: 2.5rem;
+    }
+  }

@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <title>Dev Care</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Material Kit CSS -->
+  <link href="assets/css/material-kit.css?v=3.0.0" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+  <!-- Navbar Transparent -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">
+        <img src="/api/placeholder/200/50" alt="Dev Care Logo" height="40">
+      </a>
+      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#features">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#testimonials">Depoimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#pricing">Planos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contato</a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a href="#pricing" class="btn btn-primary rounded-pill px-4">Comece Agora</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <header id="home" class="header-2">
+    <div class="page-header min-vh-100 relative full-bg3">
+      <span class="mask bg-gradient-dark opacity-4"></span>
+      <div class="container h-100 d-flex align-items-center">
+        <div class="row">
+          <div class="col-lg-8 text-start">
+            <h1 class="text-white display-3 fw-bold animate__animated animate__fadeInUp">Sites Profissionais para Área da Saúde</h1>
+            <p class="lead text-white mt-4 animate__animated animate__fadeInUp animate__delay-1s">
+              Aumente sua presença digital e atraia mais pacientes com um site otimizado e de alta conversão para médicos, enfermeiros, nutricionistas, fisioterapeutas e todos os profissionais da saúde.
+            </p>
+            <div class="mt-5 animate__animated animate__fadeInUp animate__delay-2s">
+              <a href="#pricing" class="btn btn-primary btn-lg rounded-pill px-5 py-3 me-3">
+                Ver Planos
+              </a>
+              <a href="#features" class="btn btn-outline-light btn-lg rounded-pill px-5 py-3">
+                Saiba Mais
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
+    <section class="pt-3 pb-4" id="count-stats">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 mx-auto py-3">
+            <div class="row">
+              <div class="col-md-4 position-relative">
+                <div class="p-3 text-center">
+                  <h1 class="text-gradient text-dark animate__animated animate__fadeInDown wow"><span id="state1" countTo="200">0</span>+</h1>
+                  <h5 class="mt-3">Profissionais atendidos</h5>
+                  <p class="text-sm font-weight-normal">Médicos, enfermeiros, nutricionistas e fisioterapeutas conquistando pacientes com presença online de qualidade.</p>
+                </div>
+                <hr class="vertical dark">
+              </div>
+              <div class="col-md-4 position-relative">
+                <div class="p-3 text-center">
+                  <h1 class="text-gradient text-dark animate__animated animate__fadeInDown animate__delay-1s wow"> <span id="state2" countTo="65">0</span>%</h1>
+                  <h5 class="mt-3">Aumento na taxa de conversão</h5>
+                  <p class="text-sm font-weight-normal">Com designs exclusivos para a área da saúde, melhorando a experiência do usuário desde o primeiro contato até a consulta.</p>
+                </div>
+                <hr class="vertical dark">
+              </div>
+              <div class="col-md-4">
+                <div class="p-3 text-center">
+                  <h1 class="text-gradient text-dark animate__animated animate__fadeInDown animate__delay-1s wow" id="state3" countTo="0">100</h1>
+                  <h5 class="mt-3">Dores de cabeça</h5>
+                  <p class="text-sm font-weight-normal">Cuidamos da parte técnica para que você cuide dos pacientes – oferecemos manutenção, hospedagem e suporte completo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section py-5 full-bg">
+      <div class="container text-center">
+        <h2 class="text-white fw-bold">Profissionais Parceiros</h2>
+        <p class="text-white">Conheça os profissionais que confiam em nosso trabalho</p>
+    
+        <div class="row text-center py-3 mt-3">
+          <div class="col-12">
+            <div class="">
+              <a href="javascript:;" class="avatar rounded-circle avatar-xxl" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dev Care">
+                <img id="avatar-img" alt="Logo Dev Care" src="" class="animate__animated shadow-bottom">
+              </a>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="multi-screen-section py-6">
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <!-- Texto à Esquerda -->
+          <div class="col-lg-6 text-start">
+            <h2 class="fw-bold text-dark mb-4">Sites adaptados para todos os dispositivos</h2>
+            <h2 class="fw-bold text-dark">EXPERIÊNCIA MULTI TELAS.</h2>
+            <hr class="styled-line left">
+            <p class="text-muted">
+              Mais de 80% dos seus pacientes irão acessar pelo celular! Nossos sites se adaptam perfeitamente a qualquer tela, garantindo a melhor experiência e aumentando as chances de agendamento.
+            </p>
+            <ul class="list-unstyled mt-4">
+              <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Design responsivo para celulares e tablets</li>
+              <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Carregamento rápido em qualquer dispositivo</li>
+              <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Interface amigável com foco nos serviços de saúde</li>
+            </ul>
+          </div>
+    
+          <!-- Imagem à Direita -->
+          <div class="col-lg-6 text-center">
+            <div class="image-container">
+              <img src="./assets/img/illustrations/notebook.png" class="img-fluid main-image animate__animated animate__slideInDown shadow-bottom wow" alt="Site no Desktop">
+              <img src="./assets/img/illustrations/smartphone-removebg-preview.png" class="img-fluid mobile-image animate__animated animate__slideInRight animate__delay-1s shadow-bottom wow" alt="Site no Celular">
+            </div>
+          </div>
+          <div class="text-start">
+            <a href="#pricing" class="btn btn-primary rounded-pill mt-4">Conheça os planos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-7 full-bg2" id="features">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col-lg-8 mx-auto">
+            <h6 class="text-primary text-uppercase fw-bold">Nossos Diferenciais</h6>
+            <h2 class="fw-bold mb-3">Por que escolher a Dev Care?</h2>
+            <p class="text-muted">Oferecemos soluções completas para destacar sua prática na área da saúde online</p>
+            <hr class="styled-line">
+          </div>
+        </div>
+        
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="feature-card">
+              <i class="fas fa-paint-brush text-primary fa-3x mb-4"></i>
+              <h6 class="text-muted fst-italic">Design Especializado</h6>
+              <h4 class="fw-bold mb-3">LAYOUTS PARA SAÚDE</h4>
+              <p class="text-muted">
+                Designs específicos para cada especialidade da saúde, com elementos visuais que transmitem confiança e profissionalismo.
+              </p>
+            </div>
+          </div>
+    
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="feature-card">
+              <i class="fas fa-search text-primary fa-3x mb-4"></i>
+              <h6 class="text-muted fst-italic">SEO Médico</h6>
+              <h4 class="fw-bold mb-3">VISIBILIDADE LOCAL</h4>
+              <p class="text-muted">
+                Otimização para buscas de saúde locais, garantindo que pacientes da sua região encontrem seus serviços quando precisarem.
+              </p>
+            </div>
+          </div>
+    
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="feature-card">
+              <i class="fas fa-calendar-check text-primary fa-3x mb-4"></i>
+              <h6 class="text-muted fst-italic">Agendamento Online</h6>
+              <h4 class="fw-bold mb-3">MAIS CONSULTAS</h4>
+              <p class="text-muted">
+                Sistema integrado de agendamento que facilita a marcação de consultas e reduz faltas com lembretes automáticos.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Card 4 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="feature-card">
+              <i class="fas fa-shield-alt text-primary fa-3x mb-4"></i>
+              <h6 class="text-muted fst-italic">Segurança LGPD</h6>
+              <h4 class="fw-bold mb-3">DADOS PROTEGIDOS</h4>
+              <p class="text-muted">
+                Conformidade total com a Lei Geral de Proteção de Dados, essencial para profissionais da saúde que lidam com informações sensíveis.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Card 5 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="feature-card">
+              <i class="fas fa-bullhorn text-primary fa-3x mb-4"></i>
+              <h6 class="text-muted fst-italic">Marketing para Saúde</h6>
+              <h4 class="fw-bold mb-3">VISIBILIDADE ÉTICA</h4>
+              <p class="text-muted">
+                Estratégias de marketing digital respeitando as normas dos conselhos de saúde, com conteúdo educativo e ético.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Card 6 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="feature-card">
+              <i class="fas fa-headset text-primary fa-3x mb-4"></i>
+              <h6 class="text-muted fst-italic">Suporte Especializado</h6>
+              <h4 class="fw-bold mb-3">ATENDIMENTO PREMIUM</h4>
+              <p class="text-muted">
+                Equipe com conhecimento no setor de saúde, entendendo as particularidades e demandas específicas da sua área.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="depoiments-section py-5" id="testimonials">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <h2 class="fw-bold text-dark fst-italic">O que nossos clientes dizem</h2>
+            <p class="text-muted">Confira os depoimentos de profissionais da saúde que já transformaram sua presença digital conosco.</p>
+            <hr class="styled-line">
+          </div>
+        </div>
+    
+        <div class="depoiments-wrapper">
+          <!-- Botão Anterior -->
+          <button class="depoiment-btn prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+    
+          <!-- Depoimentos -->
+          <div class="shadow-bottom-g" id="depoiment-container">
+            <!-- Os depoimentos serão inseridos aqui via JavaScript -->
+          </div>
+    
+          <!-- Botão Próximo -->
+          <button class="depoiment-btn next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider text-center my-5 position-relative">
+      <div class="container position-relative">
+        <h2 class="fw-bold text-uppercase text-white px-4 py-2 d-inline-block" 
+            style="background: linear-gradient(135deg, #1e723e 0%, #2a9873 100%); border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <i class="fa fa-tools me-2"></i> Setup Inicial
+        </h2>
+      </div>
+      <div class="texture-left" style="position: absolute; left: 0; top: 50%; width: 30%; height: 6px; background: url('https://www.transparenttextures.com/patterns/brushed-alum.png'); opacity: 0.5; transform: translateY(-50%);"></div>
+      <div class="texture-right" style="position: absolute; right: 0; top: 50%; width: 30%; height: 6px; background: url('https://www.transparenttextures.com/patterns/brushed-alum.png'); opacity: 0.5; transform: translateY(-50%);"></div>
+    </div>
+
+    <section class="my-5 py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Card Rotativo -->
+          <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">
+            <div class="rotating-card-container h-100">
+              <div class="card card-rotate card-background card-background-mask-primary shadow-lg border-0 h-100">
+                <div class="front front-background rounded-4" 
+                     style="background-image: url(https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80); 
+                            background-size: cover; background-position: center;">
+                  <div class="card-body py-7 text-center">
+                    <i class="fa fa-stethoscope text-white text-4xl my-3"></i>
+                    <h3 class="text-white fw-bold">Setup Inicial</h3>
+                    <p class="text-white opacity-8">Confira os serviços inclusos para iniciar sua configuração.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Cards Informativos -->
+          <div class="col-lg-6 ms-auto">
+            <div class="row justify-content-start">
+              <div class="col-md-6">
+                <div class="card shadow-lg border-0 p-4 rounded-4 h-100">
+                  <h5 class="font-weight-bold"><i class="fa fa-server text-success me-2"></i> Técnico</h5>
+                  <ul class="list-unstyled mt-3">
+                    <li><i class="fa fa-globe text-success me-2"></i> Configurações do Domínio</li>
+                    <li><i class="fa fa-network-wired text-success me-2"></i> Configurações do Servidor</li>
+                    <li><i class="fa fa-search text-success me-2"></i> Registro de Domínio*</li>
+                  </ul>
+                  <p class="text-muted small">* Pagamento do domínio à parte</p>
+                </div>
+              </div>
+    
+              <div class="col-md-6">
+                <div class="card shadow-lg border-0 p-4 rounded-4 h-100">
+                  <h5 class="font-weight-bold"><i class="fa fa-wrench text-success me-2"></i> Ajustes e Manutenção</h5>
+                  <ul class="list-unstyled mt-3">
+                    <li><i class="fa fa-image text-success me-2"></i> Ajustes de Imagens Médicas</li>
+                    <li><i class="fa fa-database text-success me-2"></i> Recuperação de Backups</li>
+                  </ul>
+                  <p class="text-muted small">* Pequenas manutenções inclusas!</p>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Segunda linha de Cards -->
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <div class="card shadow-lg border-0 p-4 rounded-4 h-100">
+                  <h5 class="font-weight-bold"><i class="fa fa-bullhorn text-success me-2"></i> Marketing Médico</h5>
+                  <ul class="list-unstyled mt-3">
+                    <li><i class="fa fa-ad text-success me-2"></i> Anúncios para Profissionais de Saúde</li>
+                    <li><i class="fa fa-file-medical text-success me-2"></i> Conteúdo especializado</li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col-md-6">
+                <div class="card shadow-lg border-0 p-4 rounded-4 h-100">
+                  <h5 class="font-weight-bold"><i class="fa fa-user-md text-success me-2"></i> Suporte</h5>
+                  <ul class="list-unstyled mt-3">
+                    <li><i class="fa fa-user-edit text-success me-2"></i> Inclusão de Informações Profissionais</li>
+                    <li><i class="fa fa-chalkboard-teacher text-success me-2"></i> Orientações de conteúdo médico</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-7" id="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto text-center">
+            <h2 class="mb-0 font-weight-bolder">Quero ter um site para minha clínica ou consultório</h2>
+            <p class="fw-bold text-dark">💡 Criamos opções para atender a todos os profissionais da saúde!</p>
+            <p class="text-muted">
+              Sabemos que cada profissional tem um ritmo e um orçamento diferente, por isso oferecemos duas formas de contratar:
+            </p>
+          </div>
+        </div>
+        <div class="row mt-6">
+          <div class="col-lg-4 col-md-8 ms-md-auto">
+            <div class="card bg-white shadow-lg border-0">
+              <div class="card-body text-center">
+                <h4 class="text-dark font-weight-bold">SITE PROFISSIONAL</h4>
+                <div class="stats">
+                  <i class="fas fa-search"></i> Otimizado para buscas no Google
+                </div>
+                
+                <hr class="black">
+                <h3 class="text-dark mt-4 d-inline fs-1 fst-italic fw-light">
+                  <sup class="fs-5">$</sup>79,90
+                </h3>
+          
+                <p class="text-muted d-inline">/Mês</p>
+                <p class="text-muted small">* Permanência mínima de 12 meses.</p>
+          
+                <ul class="list-unstyled text-dark mt-4">
+                  <li><i class="fas fa-check-circle text-success me-2"></i>Registro de domínio</li>
+                  <li><i class="fas fa-globe text-success me-2"></i> Site Completo</li>
+                  <li><i class="fas fa-mobile-alt text-success me-2"></i>Preparado para Celulares</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> 5 seções no site</li>
+                </ul>
+          
+                <div class="rating mt-3">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                </div>
+          
+                <button class="btn btn-dark btn-lg mt-4 w-100">Assine Agora</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-8 ms-md-auto">
+            <div class="card bg-gradient-dark shadow-lg border-0">
+              <div class="card-body text-center">
+                <h4 class="text-white font-weight-bold">Completo (Site + SETUP)</h4>
+                <p class="text-warning font-weight-bold">🔥 Recomendado</p>
+                <hr class="white">
+                <h3 class="text-white mt-4 d-inline fs-1 fst-italic fw-light">
+                  <sup class="fs-5">Site: $</sup>79,90
+                </h3>
+
+                <p class="text-white d-inline">/Mês</p>
+                <div>
+
+                  <h3 class="text-white mt-4 d-inline fs-1 fst-italic fw-light">
+                    <sup class="fs-5"> Setup: $</sup>250,90
+                    <p class="text-white d-inline">/Única Vez</p>
+                    <p class="text-warning font-weight-bold">🔥 30% OFF</p>
+                   
+                  </h3>
+                </div>
+
+          
+                <ul class="list-unstyled text-white mt-4">
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Gestão Completa</li>
+                  <li><i class="fas fa-globe text-success me-2"></i> Site Completo</li>
+                  <li><i class="fas fa-server text-success me-2"></i> Configuração do Servidor</li>
+                  <li><i class="fas fa-globe text-success me-2"></i> Configuração de Domínio</li>
+                  <li><i class="fas fa-database text-success me-2"></i> Banco de Dados Ajustado</li>
+                  <li><i class="fas fa-user-check text-success me-2"></i> Usuários Configurados</li>
+                  <li><i class="fas fa-calendar-alt text-success me-2"></i> Sistema de Agendamento</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Sistemas Integrados</li>
+                </ul>
+                <div class="rating mt-3">
+                  <i class="fas fa-star text-success"></i>
+                  <i class="fas fa-star text-success"></i>
+                  <i class="fas fa-star text-success"></i>
+                  <i class="fas fa-star text-success"></i>
+                  <i class="fas fa-star text-success"></i>
+                </div>
+                <button class="btn btn-primary btn-lg mt-4 w-100">Assine Agora</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8 ms-md-auto">
+            <div class="card bg-white shadow-lg border-0 rounded-4">
+              <div class="card-body text-center">
+                <h4 class="text-dark font-weight-bold">SETUP INICIAL</h4>
+                <div class="stats text-muted">
+                  <i class="fas fa-cogs"></i> Configuração completa do seu sistema
+                </div>
+          
+                <hr class="black">
+                <h3 class="text-dark mt-4 d-inline fs-1 fst-italic fw-light">
+                  <sup class="fs-5">$</sup>358,90
+                </h3>
+          
+                <p class="text-muted d-inline">/Única Vez</p>
+          
+                <ul class="list-unstyled text-dark mt-4">
+                  <li><i class="fas fa-server text-success me-2"></i> Configuração do Servidor</li>
+                  <li><i class="fas fa-globe text-success me-2"></i> Configuração de Domínio</li>
+                  <li><i class="fas fa-database text-success me-2"></i> Banco de Dados Ajustado</li>
+                  <li><i class="fas fa-user-check text-success me-2"></i> Usuários Configurados</li>
+                </ul>
+          
+                <div class="rating mt-3">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                </div>
+          
+                <button class="btn btn-dark btn-lg mt-4 w-100">Assine Agora</button>
+              </div>
+            </div>
+          </div>
+
+          <hr class="section-divider1">
+  
+          <h2 class="section-title">Qual a diferença entre site e setup?</h2>
+          
+          <p class="section-description">
+            O site é a presença digital da sua clínica ou consultório, mas para que ele fique acessível, 
+            precisa passar pelo setup, um processo que o coloca no ar e pronto para 
+            atrair pacientes do mundo todo. Aqui estão algumas opções para você!
+          </p>
+          
+          <div class="option-card option-standard">
+            <p class="fw-bold">
+              <span class="emoji">✅</span>
+              <span class="text-success">Contrate o site primeiro</span> e pague apenas 
+              <span class="price-tag">R$ 79,90/mês</span>. Quando estiver pronto e aprovado, 
+              você pode pagar o <span class="text-danger">setup separadamente</span> por 
+              <span class="price-tag">R$ 358,90</span> para colocá-lo no ar.
+            </p>
+          </div>
+          
+          <div class="option-card option-combo">
+            <p class="fw-bold">
+              <span class="emoji">🔥</span>
+              <span class="text-danger">Ou economize com o Combo Site + Setup!</span> 
+              Você paga <span class="price-tag">R$ 79,90/mês</span> pelo site e ganha 
+              <span class="discount-badge">30% OFF no Setup</span>, pagando apenas 
+              <span class="price-tag">R$ 250,90</span> para lançá-lo rapidamente.
+            </p>
+          </div>
+          
+          <div class="note-box">
+            <p class="section-description" style="margin-bottom: 0; text-align: left; font-size: 1.1rem;">
+              <span class="emoji">📢</span>
+              <span style="font-weight: bold; color: #333;">Nosso objetivo é facilitar sua vida!</span> 
+              Escolha a melhor opção e tenha um <span class="text-primary">site profissional de saúde sem dor de cabeça.</span>
+            </p>
+          </div>
+          
+          <hr class="section-divider">
+</section>
+
+<section class="contact-section py-5" id="contact">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <h2 class="fw-bold text-dark">Entre em Contato</h2>
+        <p class="text-muted">Fale conosco pelos nossos canais oficiais e descubra como podemos ajudar sua clínica ou consultório.</p>
+        <hr class="styled-line">
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-4">
+        <div class="contact-card shadow-lg p-4 text-center">
+          <i class="fas fa-phone-alt text-success fa-2x mb-3"></i>
+          <h5 class="fw-bold">Telefone</h5>
+          <p class="text-muted">+55 11 99999-9999</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="contact-card shadow-lg p-4 text-center">
+          <i class="fas fa-envelope text-primary fa-2x mb-3"></i>
+          <h5 class="fw-bold">E-mail</h5>
+          <p class="text-muted">contato@devcare.com</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="contact-card shadow-lg p-4 text-center">
+          <i class="fab fa-whatsapp text-success fa-2x mb-3"></i>
+          <h5 class="fw-bold">WhatsApp</h5>
+          <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-success w-100">
+            <i class="fab fa-whatsapp"></i> Fale no WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<footer class="footer pt-5 mt-5 bg-dark text-white">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Logo e Redes Sociais -->
+      <div class="col-md-3 mb-4 ms-auto text-center text-md-start">
+        <div>
+          <a href="#">
+            <img src="/api/placeholder/200/50" class="mb-3 footer-logo" alt="Dev Care Logo">
+          </a>
+          <h6 class="fw-bold">Dev Care</h6>
+        </div>
+        <div>
+          <ul class="d-flex flex-row justify-content-center justify-content-md-start nav">
+            <li class="nav-item"><a class="nav-link pe-2" href="#"><i class="fab fa-facebook text-white"></i></a></li>
+            <li class="nav-item"><a class="nav-link pe-2" href="#"><i class="fab fa-twitter text-white"></i></a></li>
+            <li class="nav-item"><a class="nav-link pe-2" href="#"><i class="fab fa-instagram text-white"></i></a></li>
+            <li class="nav-item"><a class="nav-link pe-2" href="#"><i class="fab fa-linkedin text-white"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Links Úteis -->
+      <div class="col-md-2 col-sm-6 col-6 mb-4">
+        <h6 class="text-uppercase fw-bold text-success">Sobre Nós</h6>
+        <ul class="list-unstyled">
+          <li><a class="text-white-50" href="#">Quem Somos</a></li>
+          <li><a class="text-white-50" href="#">Serviços para Saúde</a></li>
+          <li><a class="text-white-50" href="#">Portfólio Médico</a></li>
+          <li><a class="text-white-50" href="#">Blog de Saúde</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 col-sm-6 col-6 mb-4">
+        <h6 class="text-uppercase fw-bold text-success">Ajuda</h6>
+        <ul class="list-unstyled">
+          <li><a class="text-white-50" href="#">Perguntas Frequentes</a></li>
+          <li><a class="text-white-50" href="#">Suporte Técnico</a></li>
+          <li><a class="text-white-50" href="#">Termos e Condições</a></li>
+          <li><a class="text-white-50" href="#">Política de Privacidade</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 col-sm-6 col-6 mb-4">
+        <h6 class="text-uppercase fw-bold text-success">Contato</h6>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-phone-alt"></i> +55 11 99999-9999</li>
+          <li><i class="fas fa-envelope"></i> contato@devcare.com</li>
+          <li><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123</li>
+        </ul>
+      </div>
+      
+      <div class="col-12 text-center mt-4">
+        <p class="text-white-50 text-sm">
+          &copy; <script>document.write(new Date().getFullYear())</script> Todos os direitos reservados. 
+          Desenvolvido por <a href="#" class="text-white">Dev Care</a>.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+ 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script type="text/javascript" src="./assets/js/wow.min.js"></script>
+<script>new WOW().init();</script>
+<script type="text/javascript" src="./assets/js/app.js"></script>
+</body>
+
+</html>
